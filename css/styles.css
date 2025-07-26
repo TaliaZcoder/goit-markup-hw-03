@@ -201,6 +201,12 @@ button {
     letter-spacing: 0.02em;
 }
 
+.team-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin: 0 auto;
+}
+
 .title-team {
     font-size: 36px;
     line-height: 111%;
@@ -208,6 +214,17 @@ button {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    padding-bottom: 72px;
+}
+
+.lista-team {
+    display: flex;
+    gap: 24px;
+}
+
+.descr-img-team {
+    margin: 32px 16px;
+    text-align: center;
 }
 
 .team-member {
@@ -216,6 +233,7 @@ button {
     line-height: 120%;
     letter-spacing: 0.02em;
     color:  #2e2f42;
+    padding-bottom: 8px;
  }
 
  .post {
@@ -223,8 +241,10 @@ button {
     letter-spacing: 0.02em;
  }
 
- .lista-team {
-    background-color: #FFFFFF
+ .item-team {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
  }
 
  .title-portfolio {
